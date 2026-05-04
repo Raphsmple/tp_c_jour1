@@ -1,6 +1,6 @@
-// hello.c — votre premier programme C
 #include <stdio.h>
+#define MESSAGE "Bonjour YNOV !"
 int main(void) {
-printf("Bonjour le monde compile !\n");
+printf("%s\n", MESSAGE);
 return 0;
 }
